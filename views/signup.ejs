@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="signup.css">
+  <script defer src="signup.js"></script>
+</head>
+
+<body>
+  <main id="main-holder">
+    <h1 id="signup-header">Sign Up</h1>
+    
+    <div id="signup-error-msg-holder">
+      <p id="signup-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+    
+    <form action= "/signup" method="post" id="signup-form">
+      <input type="text" name="username" id="username-field" class="signup-form-field" placeholder="Username">
+      <input type="password" name="password" id="password-field" class="signup-form-field" placeholder="Password">
+      <input type="submit" value="SignUp" id="Signup-form-submit">
+    </form>
+  
+  </main>
+</body>
+
+</html>

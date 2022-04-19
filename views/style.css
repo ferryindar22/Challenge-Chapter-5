@@ -1,0 +1,191 @@
+/* Navbar */
+.nav-link {
+    font-family: 'open sans';
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: white !important;
+}
+
+/* Hero */
+.jumbotron {
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)), url(assets/main-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin-top: -77px;
+}
+
+.cover-heading {
+    font-size: 5rem;
+    padding-top: 20%;
+    justify-content: center;
+}
+
+.lead {
+    font-weight: lighter;
+    font-size: 2rem;
+    justify-content: center;
+}
+
+.col {
+    color: aliceblue;
+    animation: scroll-Down 1.2s infinite;
+}
+
+.header-scroll-toggle {
+    color: white;
+
+}
+
+/* Gallery */
+
+.gallery {
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)), url(assets/the-games-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.gallery-content {
+    padding-top: 10%;
+    padding-left: 10%;
+    flex-direction: row;
+    width: 90vw;
+}
+
+.gallery-mini-info {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.gl-h1-info {
+    font-size: 3.5rem;
+    font-weight: normal;
+    line-height: 3rem;
+}
+
+.carousel-indicators button {
+    width: 0.5rem !important;
+    height: 0.5rem !important;
+}
+
+/* Features */
+.features {
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)), url(assets/features.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.col-4 {
+    color: white;
+    padding-top: 14rem;
+}
+
+.tl-info-title {
+    text-align: start;
+    margin-top: 13px;
+}
+
+/* Requirement */
+.requirement {
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0)), url(assets/requirements.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.requirement h5 {
+    padding-top: 5%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.requirement h6 {
+    padding-top: 5%;
+    color: white;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.container {
+    color: white;
+}
+
+.col-6 {
+    border-style: solid;
+    border-width: 0.3px;
+}
+.col-6 h2 {
+    color: orange;
+}
+.col-6 p {
+    color: white;
+    font-size: medium;
+}
+
+/* score */
+.score {
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0)), url(assets/top-score-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.col h1 {
+    padding-top: 30%;
+}
+
+.row-3 {
+    margin-top: 10%;
+}
+
+.col-7 h3 {
+    color: orange;
+}
+
+.col-7 h4 {
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.card-text {
+    color: grey;
+}
+
+/* newsletter */
+.newsletter {
+    background-image: url(assets/newsletter.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.row-2 {
+    margin-left: 50vw;
+    width: 30%;
+}
+
+.row-2 h1 {
+    padding-top: 30vh;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.row-2 h2 {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.row-2 p {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.container .top {
+    padding-top: 140px;
+    position: relative;
+}
